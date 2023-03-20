@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Application météo | LALANE Franci-lobbie - développeur web freelance Toulouse / Bordeaux / Paris</title>
+</head>
+<body>
+  <div class="container">
+    <div class="main_app">
+      <header>
+        <h1>Check the weather in a city</h1>
+        <form id="search__form" action="" method="get">
+          <div class="form__row">
+            <input type="text" name="city" id="city" placeholder="Enter a city" autofocus>
+            <button type="submit">
+              <img id="submit__button" src="./images/14270631741548336252.svg" alt="Submit button image">
+            </button>
+            <span class="msg"></span>
+          </div>
+        </form>
+        <button type="reset">
+          <img class="reset__button" src="/images/reset-svgrepo-com.svg" alt="Reset button image">
+        </button>
+      </header>
+      <main>
+        <div class="container">
+          <ul class="cities__list">
+          </ul>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
