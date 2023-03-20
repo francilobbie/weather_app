@@ -2,8 +2,15 @@ const form = document.querySelector("form");
 const input = document.querySelector("input");
 const msg = document.querySelector(".msg");
 const list = document.querySelector("main .cities__list");
+const reset = document.querySelector(".reset__button");
 
 const apiKey = "4d8fb5b93d4af21d66a2948710284366";
+
+reset.addEventListener("click", () => {
+  list.innerHTML = "";
+  msg.textContent = "";
+  input.focus();
+});
 
 form.addEventListener("submit", e => {
   e.preventDefault();
