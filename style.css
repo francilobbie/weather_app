@@ -21,11 +21,8 @@ body {
 /* --------------------------------  Global  ------------------------------------ */
 
 header {
-  width: 100%;
-
+  width: 90%;
 }
-
-
 
 
 h1 {
@@ -50,8 +47,8 @@ li {
 
 .container {
   margin: 0 auto;
-  padding: 0 15px;
-  max-width: 960px;
+  /* padding: 0 15px; */
+  max-width: 1300px;
   width: 100%;
 }
 
@@ -201,7 +198,7 @@ input {
 
 @media screen and (max-width: 1100px) {
   header {
-    width: 70%;
+    width: 80%;
   }
 
   h1 {
@@ -279,11 +276,15 @@ input {
 
 @media screen and (max-width: 500px) {
   header {
-    width: 100%;
+    width: 90%;
   }
 
   h1 {
     font-size: 2em;
+  }
+
+  li {
+    margin: 10px;
   }
 
   .cities__list {
@@ -291,12 +292,12 @@ input {
   }
 
   .weather {
-    width: 170px;
-    height: 240px;
+    width: 150px;
+    height: 230px;
   }
 
   .icon {
-    height: 150px;
+    height: 130px;
     padding: 0;
   }
 
@@ -312,10 +313,14 @@ input {
 
   .city-name {
     font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #temperature {
-    font-size: 2.2em;
+    font-size: 1.89em;
   }
 
   .description {
@@ -323,6 +328,6 @@ input {
   }
 
   figure {
-    font-size: 1.5em;
+    font-size: 1.119em;
   }
 }
