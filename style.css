@@ -2,9 +2,9 @@
 body {
     background-color: #000000;
     color: #ffffff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    /* font-size: 14px; */
+    /* line-height: 1.42857143; */
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -46,7 +46,7 @@ li {
 }
 
 .container {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* padding: 0 15px; */
   max-width: 1300px;
   width: 100%;
