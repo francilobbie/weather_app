@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 const input = document.querySelector("input");
 const msg = document.querySelector(".msg");
 const list = document.querySelector("main .cities__list");
-const reset = document.querySelector(".reset__button");
+const reset = document.querySelector("#reset__button");
 
 const apiKey = "4d8fb5b93d4af21d66a2948710284366";
 
@@ -92,3 +92,32 @@ form.addEventListener("submit", e => {
   form.reset();
   input.focus();
 })
+
+
+    console.log(`Art by Blazej Kozlowski
+
+       _
+       \`*-.
+        )  _\`-.
+       .  : \`. .
+       : _   '  \\
+       ; *\` _.   \`*-._
+       \`-.-'          \`-.
+         ;       \`       \`.
+         :.       .        \\
+         . \\  .   :   .-'   .
+         '  \`+.;  ;  '      :
+         :  '  |    ;       ;-.
+         ; '   : : \`-:     _.\`* ;
+[bug] .*' /  .*' ; .*\`- +\'  \`*'
+      \`*-*   \`*-*  \`*-*
+
+
+
+      Hey! 👋 Salut à tous les curieux qui regardent dans la console !
+      J'espère que vous passez une bonne journée et que vous appréciez mon site web.
+
+      Si vous voulez en savoir plus sur moi, vous pouvez visiter mon site ici 👉 https://franci-lobbie.fr ou consulter mon compte GitHub à l'adresse https://github.com/francilobbie.
+
+      À bientôt ! 🙂
+`);
