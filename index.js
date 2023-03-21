@@ -117,6 +117,8 @@ form.addEventListener("submit", e => {
       Hey! 👋 Salut à tous les curieux qui regardent dans la console !
       J'espère que vous passez une bonne journée et que vous appréciez mon site web.
 
+      ce site est inspiré du site de George Martsoukos, vous pouvez retrouver ici 👉 https://webdesign.tutsplus.com/tutorials/build-a-simple-weather-app-with-vanilla-javascript--cms-33893
+
       Si vous voulez en savoir plus sur moi, vous pouvez visiter mon site ici 👉 https://franci-lobbie.fr ou consulter mon compte GitHub à l'adresse https://github.com/francilobbie.
 
       À bientôt ! 🙂
